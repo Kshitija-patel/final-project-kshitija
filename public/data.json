@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Kshitija Patel",
+        "website": "https://Kshitija-patel.github.io",
+        "profile": "Kshitija.jpg",
+        "skills": ["React Native", "HTML", "Javascript", "PHP"]
+    },{
+        "name": "Alex Stoba",
+        "website": "https://Kshitija-patel.github.io",
+        "profile": "Alex.jpg",
+        "skills": ["Angular", "Android"]
+    },{
+        "name": "Simon Huang",
+        "website": "https://Kshitija-patel.github.io",
+        "profile": "Simon.jpg",
+        "skills": ["iOS"]
+    }
+]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Final Project</h1>
+    <div class="svg-container">
+      <svg height="60" width="150">
+        <rect width="50" height="50" style="fill: #00b0ff" />
+        <circle cx="100" cy="25" r="25" fill="#ff7043" />
+        <path d="M 50 25 l 25 0" stroke="green" stroke-width="2" fill="none" />
+      </svg>
+    </div>
+    <div class="card">
+      <button onclick="previous()">&#8678;</button>
+      <div id="profile-data" class="profile-data"></div>
+      <button onclick="next()">&#8680;</button>
+    </div>
+    <div class="svg-container">
+      <svg height="60" width="200">
+        <text x="0" y="25" fill="#01579b">
+          Click on left/right buttons to navigate!
+        </text>
+      </svg>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
